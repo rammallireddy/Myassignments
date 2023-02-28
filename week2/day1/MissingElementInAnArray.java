@@ -10,11 +10,11 @@ public class MissingElementInAnArray {
 		//System.out.println(arr[0]);
 		
 		Arrays.sort(arr);
-		for (int i = arr[0]; i<= arr.length-1; i++) {
-			arr[i] = arr[i] +1;
-			if(i != arr[i]) {
-				System.out.println(i);
-			
+		for (int i = 0; i<= arr.length-1; i++) {
+			//arr[i] = arr[i] +1;
+			if(arr[i] != i+1) {
+				System.out.println(i+1);
+			//break;
 		}
 		}
 
